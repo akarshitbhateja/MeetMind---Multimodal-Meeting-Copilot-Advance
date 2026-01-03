@@ -38,5 +38,5 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/meetmind.git
-cd meetmind
+git clone https://akarshitbhateja/MeetMind---Multimodal-Meeting-Copilot-Advance.git
+cd MeetMind---Multimodal-Meeting-Copilot-Advance
