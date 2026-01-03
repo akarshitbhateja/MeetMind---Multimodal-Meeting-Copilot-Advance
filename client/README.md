@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 MeetMind: Your AI-Powered Meeting Copilot
 
-## Getting Started
+**MeetMind** is a full-stack web application designed to streamline meeting management. It handles everything from secure authentication and scheduling to AI-powered post-meeting analysis using Groq (Whisper & Llama 3).
 
-First, run the development server:
+---
 
+## 🛠️ Tech Stack
+
+### **Frontend**
+*   **Framework:** Next.js (React)
+*   **Language:** TypeScript
+*   **Styling:** Tailwind CSS (Project Obsidian Theme)
+*   **Components:** Custom UI Components & Lucide React Icons
+*   **Auth:** Firebase Authentication
+
+### **Backend**
+*   **Runtime:** Node.js & Express.js
+*   **Database:** MongoDB (Atlas)
+*   **File Handling:** Multer
+*   **AI Engine:** Groq SDK (Whisper-large-v3-turbo for Audio, Llama 3 for Summaries)
+
+### **Integrations**
+*   **Automation:** Pabbly Connect (Google Calendar & Meet links)
+*   **Tunneling:** ngrok (For local development webhooks)
+
+---
+
+## ⚙️ Prerequisites
+
+Before you begin, ensure you have the following installed:
+*   [Node.js](https://nodejs.org/) (v18 or higher)
+*   [Git](https://git-scm.com/)
+*   [ngrok](https://ngrok.com/) (Required for Pabbly integration locally)
+
+---
+
+## 🚀 Installation & Setup
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/yourusername/meetmind.git
+cd meetmind
